@@ -1,6 +1,6 @@
 <?php
 
-namespace Test\Framework;
+namespace unit\Framework;
 
 use Framework\App;
 use GuzzleHttp\Psr7\ServerRequest;

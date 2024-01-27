@@ -1,0 +1,1 @@
+{"version":1,"defects":[],"times":{"unit\\Framework\\AppTest::testRedirectTrainingSlash":0.016,"unit\\Framework\\AppTest::testBlog":0.003,"unit\\Framework\\AppTest::testError404":0}}
