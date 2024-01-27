@@ -1,0 +1,29 @@
+{
+    "name": "tantely/php",
+    "autoload": {
+        "psr-4": {
+            "Tantely\\Php\\": "src/",
+            "Framework\\": "src/Framework"
+        }
+    },
+    "authors": [
+        {
+            "name": "Hevitriniavo",
+            "email": "hei.tantely@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^10.5",
+        "squizlabs/php_codesniffer": "*"
+    },
+    "require": {
+        "guzzlehttp/psr7": "^2.6",
+        "laminas/laminas-diactoros": "^3.3",
+        "http-interop/response-sender": "^1.0"
+    },
+    "config": {
+        "platform": {
+            "php": "8.3.0"
+        }
+    }
+}

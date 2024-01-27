@@ -1,0 +1,5 @@
+composer dump-autoload
+ ./vendor/bin/phpunit tests/Framework/AppTest.php
+ composer require guzzlehttp/psr7
+
+$ composer require --with-all-dependencies http-interop/response-sender
