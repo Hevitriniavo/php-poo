@@ -2,8 +2,9 @@
     "name": "tantely/php",
     "autoload": {
         "psr-4": {
-            "Tantely\\Php\\": "src/",
-            "Framework\\": "src/Framework"
+            "Framework\\": "src/Framework",
+            "App\\": "src",
+            "Tests\\": "tests/unit/"
         }
     },
     "authors": [
